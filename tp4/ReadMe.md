@@ -104,6 +104,7 @@ GRANT SELECT ON EMP TO PUBLIC;
 
 **Retirer les privilèges attribuées aux admins, ainsi que les utilisateurs qui ont reçu leurs privilèges sur la table EMP par un membre de l'équipe devsecops:**
 
+ REVOKE ALL PRIVILEGES ON emp FROM devscops;
  REVOKE DBA FROM devsecops;
  
 
